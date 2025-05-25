@@ -149,7 +149,7 @@ span{
   margin: 32px 0px 32px;
 }
 
-.estudios>.fecha{
+.estudios>h3{
   font-size: 14px;
   color: #64748b;
   background-color: #ffffff;
@@ -160,7 +160,7 @@ span{
 .estudios>p{
   font-size: 24px;
   color: #64748b;
-  text-align: start;
+  text-align: center;
   line-height: 1.8;
   width: 90%;
 }
