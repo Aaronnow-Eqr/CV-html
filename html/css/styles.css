@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+}
+
+/*HEADER*/
+
+/*INFORMACION PERSONAL*/
+
+img{
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 4px solid #ffffff;
+  box-shadow: 0 0 0 7px #006eff;
+}
+
+.informacion-personal{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-content: center;
+  height: 600px;
+  gap: 20px;
+  padding: 80px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.informacion-personal>.informacion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.texto{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.texto>p{
+  font-size: 26px;
+  color: #64748b;
+}
+
+.informacion>h1{
+  font-size: 66px;
+  color: #1e293b;
+  width: 70%;
+  text-align: center;
+}
+
+span{
+  color: #015ace;
+}
+
+
+/*MAIN*/
+
+/*PERFIL PROFESIONAL*/
+
+.perfil{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  gap: 40px;
+  padding: 150px;
+  background-color: #ffffff;
+}
+
+.perfil>h2{
+  font-size: 48px;
+  color: #1e293b;
+}
+
+.perfil>p{
+  font-size: 24px;
+  color: #64748b;
+  text-align: justify;
+  line-height: 1.8;
+  width: 90%;
+}
+
+/*EDUCACION*/
+
+.contenedor{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  justify-items: center;
+  align-content: center;
+  height: 600px;
+  gap: 60px;
+  padding: 80px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.titulo1{
+  grid-column: 1; grid-row: 1;
+}
+.titulo2{
+  grid-column: 2; grid-row: 1;
+}
+.estudios{
+  grid-column: 1; grid-row: 2;
+}
+.certificaciones{
+  grid-column: 2; grid-row: 2;
+}
+
+
+.estudios{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 10px;
+  width: 80%;
+  height: 400px;
+}
+
+.certificaciones{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  width: 80%;
+  height: 400px;
+}
+
+.certificaciones>p{
+  background-color:rgb(44, 86, 255);
+  border-radius: 10px;
+}
+
+.titulo-estudio,.titulo-certificado{
+  font-size: 48px;
+  color: #1e293b;
+  margin: 32px 0px 32px;
+}
+
+.estudios>h3{
+  font-size: 14px;
+  color: #64748b;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 0px 0px 16px;
+  padding: 4px 12px;
+}
+
+.estudios>p{
+  font-size: 24px;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.8;
+  width: 90%;
+}
+.certificaciones>p{
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.8;
+  width: 90%;
+}
+
+
+/*HABILIDADES*/
+
+.habilidades{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  gap: 40px;
+  padding: 150px;
+  background-color: #ffffff;
+}
+
+/*IDIOMAS*/
+
+.idiomas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  gap: 40px;
+  padding: 150px;
+  background-color: #ffffff;
+}
