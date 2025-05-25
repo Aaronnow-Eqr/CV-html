@@ -149,19 +149,18 @@ span{
   margin: 32px 0px 32px;
 }
 
-.estudios>h3{
+.estudios>.fecha{
   font-size: 14px;
   color: #64748b;
   background-color: #ffffff;
   border-radius: 10px;
-  margin: 0px 0px 16px;
   padding: 4px 12px;
 }
 
 .estudios>p{
   font-size: 24px;
   color: #64748b;
-  text-align: center;
+  text-align: start;
   line-height: 1.8;
   width: 90%;
 }
